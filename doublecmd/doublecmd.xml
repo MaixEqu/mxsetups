@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doublecmd DCVersion="0.7.1 beta" ConfigVersion="9">
+  <Configuration Save="True" SortOrder="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+  </Configuration>
+  <Colors>
+    <FileFilters>
+      <Filter>
+        <Name>Pascal sources</Name>
+        <FileMasks>*.pas;*.pp</FileMasks>
+        <Color>32768</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Pascal binaries</Name>
+        <FileMasks>*.ppu;*.o;*.dcu</FileMasks>
+        <Color>16711680</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Specified Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>8388608</Color>
+        <Attributes>-rwxrwxr*x</Attributes>
+      </Filter>
+      <Filter>
+        <Name>Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>128</Color>
+        <Attributes>-*x*</Attributes>
+      </Filter>
+    </FileFilters>
+    <UseCursorBorder>True</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <UseFrameCursor>False</UseFrameCursor>
+    <Foreground>-2147483640</Foreground>
+    <Background>-2147483635</Background>
+    <Background2>-2147483619</Background2>
+    <Cursor>-2147483638</Cursor>
+    <CursorText>8388608</CursorText>
+    <Mark>65535</Mark>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <InactivePanelBrightness>87</InactivePanelBrightness>
+    <FreeSpaceIndicator>
+      <UseGradient>True</UseGradient>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+    </FreeSpaceIndicator>
+  </Colors>
+  <Plugins>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>wlxMplayer</Name>
+        <Path>%COMMANDER_PATH%/plugins/wlx/wlxmplayer/wlxmplayer.wlx</Path>
+        <DetectString>(EXT="MPG")|(EXT="AVI")|(EXT="MPEG")|(EXT="FLV")</DetectString>
+      </WlxPlugin>
+    </WlxPlugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>212</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/rpm/rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/unrar/unrar.wcx</Path>
+        <Flags>68</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/deb_wdx/deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/rpm_wdx/rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%/plugins/wfx/ftp/ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Windows Network</Name>
+        <Path>%commander_path%/plugins/wfx/samba/samba.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+  </Plugins>
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Command>
+          <ID>{E812495E-87B5-4950-B022-E402ED79B527}</ID>
+          <Icon>cm_refresh</Icon>
+          <Command>cm_Refresh</Command>
+        </Command>
+        <Command>
+          <ID>{70DD74EB-B1DE-4836-B2E6-050618984026}</ID>
+          <Icon>cm_runterm</Icon>
+          <Command>cm_RunTerm</Command>
+        </Command>
+        <Command>
+          <ID>{2D852940-B16B-4E1A-AD9F-D203951E7069}</ID>
+          <Icon>cm_options</Icon>
+          <Command>cm_Options</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{DC58FECF-75C7-4CC8-B2F3-E3F976E95857}</ID>
+          <Icon>cm_briefview</Icon>
+          <Command>cm_BriefView</Command>
+        </Command>
+        <Command>
+          <ID>{C17C1C61-00AC-4823-A190-504E4D360012}</ID>
+          <Icon>cm_columnsview</Icon>
+          <Command>cm_ColumnsView</Command>
+        </Command>
+        <Command>
+          <ID>{59949333-2678-41AA-89AE-1F3C296CFEB8}</ID>
+          <Icon>cm_thumbnailsview</Icon>
+          <Command>cm_ThumbnailsView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{A0804F0F-0191-40B0-9043-5C0A82EE88C5}</ID>
+          <Icon>cm_flatview</Icon>
+          <Command>cm_FlatView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{4810D9EC-FD04-4826-8693-DC84B0330682}</ID>
+          <Icon>cm_viewhistoryprev</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{9E9A1542-3528-4343-8CC6-2320217583AB}</ID>
+          <Icon>cm_viewhistorynext</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{4B036C2F-4C66-4A29-A92A-A4B48E78E5D2}</ID>
+          <Icon>cm_markplus</Icon>
+          <Command>cm_MarkPlus</Command>
+        </Command>
+        <Command>
+          <ID>{E55FB855-D22D-441E-B53F-7F6781DE21AB}</ID>
+          <Icon>cm_markminus</Icon>
+          <Command>cm_MarkMinus</Command>
+        </Command>
+        <Command>
+          <ID>{44DCD0FD-ED5E-4298-A068-88BF43B834A1}</ID>
+          <Icon>cm_markinvert</Icon>
+          <Command>cm_MarkInvert</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{2FF03FB5-DD0A-46A0-80CC-AD5AB231A46F}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{DF5BEB61-D261-47D5-85CF-95CBB38E5DD9}</ID>
+          <Icon>cm_extractfiles</Icon>
+          <Command>cm_ExtractFiles</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{5B83F078-8DC2-4A40-AC1D-C25C674DEDD6}</ID>
+          <Icon>cm_search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+        <Command>
+          <ID>{1243AB67-0616-4CC3-90E0-3A5F8754B7E5}</ID>
+          <Icon>cm_multirename</Icon>
+          <Command>cm_MultiRename</Command>
+        </Command>
+        <Command>
+          <ID>{B7B3D715-085A-4B12-BE22-05E24526EA24}</ID>
+          <Icon>cm_syncdirs</Icon>
+          <Command>cm_SyncDirs</Command>
+        </Command>
+        <Command>
+          <ID>{95F0464D-C7B2-44AA-B467-F3F81B633BD0}</ID>
+          <Icon>cm_copyfullnamestoclip</Icon>
+          <Command>cm_CopyFullNamesToClip</Command>
+        </Command>
+      </Row>
+    </MainToolbar>
+  </Toolbars>
+  <Language>
+    <POFileName>doublecmd.en.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <RunInTerminalStayOpenCmd>x-terminal-emulator</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>x-terminal-emulator</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>x-terminal-emulator</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>1</FileSizeFormat>
+    <MinimizeToTray>True</MinimizeToTray>
+    <AlwaysShowTrayIcon>True</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+      </Selection>
+      <ScrollMode>0</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>False</AutoFillColumns>
+    <AutoSizeColumn>1</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>yyyy/mm/dd hh:mm:ss</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList/>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path>/usr/bin/geany</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="True">
+      <Path>/usr/bin/geany</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>Sans</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Monospace</Name>
+      <Size>11</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>Monospace</Name>
+      <Size>11</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <Log>
+      <Name>Monospace</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>default</Name>
+      <Size>11</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Monospace</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+  </Fonts>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <CustomFields/>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="False">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </ButtonBar>
+    <DriveBar1>True</DriveBar1>
+    <DriveBar2>False</DriveBar2>
+    <DriveBarFlat>False</DriveBarFlat>
+    <DrivesListButton Enabled="False">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>False</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>False</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>False</KeyButtons>
+    <InterfaceFlat>False</InterfaceFlat>
+    <DriveFreeSpace>True</DriveFreeSpace>
+    <DriveIndicator>True</DriveIndicator>
+    <ProgressInMenuBar>True</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>False</ShortFormatDriveInfo>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SortFolderMode>1</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>2</UpdatedFilesPosition>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>1</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>2</NoModifier>
+        <Alt>3</Alt>
+        <CtrlAlt>2</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <HashBufferSize>8388608</HashBufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>True</ProcessComments>
+    <RenameSelOnlyName>True</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>True</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <TypeOfDuplicatedRename>1</TypeOfDuplicatedRename>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <OverwriteFolder>False</OverwriteFolder>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <SearchDefaultTemplate/>
+    <ProgressKind>2</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <SetPropertyError>0</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>False</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+    </Options>
+  </FileOperations>
+  <Tabs>
+    <Options>49936</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>12</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="build">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/build/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="test">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/test/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="..">/home/maick/.android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="index.html">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="Desktop">/home/maick/</Path>
+                  <Path Filename="chromium-browser.desktop">/home/maick/Desktop/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="build">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/build/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="test">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/test/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="..">/home/maick/.android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="index.html">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="Desktop">/home/maick/</Path>
+                  <Path Filename="chromium-browser.desktop">/home/maick/Desktop/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="build">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/build/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="test">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/test/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="..">/home/maick/.android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="index.html">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="Desktop">/home/maick/</Path>
+                  <Path Filename="chromium-browser.desktop">/home/maick/Desktop/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="build">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/build/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="test">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/test/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="..">/home/maick/.android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="index.html">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="Desktop">/home/maick/</Path>
+                  <Path Filename="chromium-browser.desktop">/home/maick/Desktop/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="build">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/build/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="test">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/test/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="..">/home/maick/.android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="index.html">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="Desktop">/home/maick/</Path>
+                  <Path Filename="chromium-browser.desktop">/home/maick/Desktop/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="WebView4">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="build">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/build/</Path>
+                  <Path Filename="app">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="src">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="test">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/test/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="..">/home/maick/.android/</Path>
+                  <Path Filename=".android">/home/maick/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/.android/avd/</Path>
+                  <Path Filename="avd">/home/maick/.android/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="index.html">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="Desktop">/home/maick/</Path>
+                  <Path Filename="chromium-browser.desktop">/home/maick/Desktop/</Path>
+                  <Path Filename="main">/home/maick/AndroidStudioProjects/WebView4/app/src/</Path>
+                  <Path Filename="assets">/home/maick/AndroidStudioProjects/WebView4/app/src/main/</Path>
+                  <Path Filename="www">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/</Path>
+                  <Path Filename="">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/maick/dart/</Path>
+                  <Path Filename="ng">/home/maick/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="src">/home/maick/ng/app02/</Path>
+                  <Path Filename="app">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/app/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="..">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="">/home/maick/xMx/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/maick/dart/</Path>
+                  <Path Filename="ng">/home/maick/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="src">/home/maick/ng/app02/</Path>
+                  <Path Filename="app">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/app/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="..">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="">/home/maick/xMx/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/maick/dart/</Path>
+                  <Path Filename="ng">/home/maick/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="src">/home/maick/ng/app02/</Path>
+                  <Path Filename="app">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/app/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="..">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="">/home/maick/xMx/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/maick/dart/</Path>
+                  <Path Filename="ng">/home/maick/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="src">/home/maick/ng/app02/</Path>
+                  <Path Filename="app">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/app/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="..">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="">/home/maick/xMx/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/maick/dart/</Path>
+                  <Path Filename="ng">/home/maick/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="app02">/home/maick/ng/</Path>
+                  <Path Filename="src">/home/maick/ng/app02/</Path>
+                  <Path Filename="app">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/app/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/src/</Path>
+                  <Path Filename="..">/home/maick/ng/app02/</Path>
+                  <Path Filename="..">/home/maick/ng/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="">/home/maick/xMx/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="data">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/data/</Path>
+                  <Path Filename="">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/!Mx/textarea74/</Path>
+                  <Path Filename="textarea74">/home/maick/!Mx/</Path>
+                  <Path Filename="..">/home/maick/!Mx/textarea74/</Path>
+                  <Path Filename="..">/home/maick/!Mx/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename=".bash_history">/home/maick/</Path>
+                  <Path Filename="Pr08.f!F1a=.txt">/media/maick/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="data">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/data/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="data">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/data/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="data">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/data/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="">/home/maick/xMx/</Path>
+                  <Path Filename="..">/media/maick/</Path>
+                  <Path Filename=".dbeaver4">/home/maick/</Path>
+                  <Path Filename="General">/home/maick/.dbeaver4/</Path>
+                  <Path Filename="..">/home/maick/.dbeaver4/General/</Path>
+                  <Path Filename="..">/home/maick/.dbeaver4/</Path>
+                  <Path Filename=".dbeaver-drivers">/home/maick/</Path>
+                  <Path Filename="maven">/home/maick/.dbeaver-drivers/</Path>
+                  <Path Filename="maven-central">/home/maick/.dbeaver-drivers/maven/</Path>
+                  <Path Filename="mysql">/home/maick/.dbeaver-drivers/maven/maven-central/</Path>
+                  <Path Filename="..">/home/maick/.dbeaver-drivers/maven/maven-central/mysql/</Path>
+                  <Path Filename="..">/home/maick/.dbeaver-drivers/maven/maven-central/</Path>
+                  <Path Filename="..">/home/maick/.dbeaver-drivers/maven/</Path>
+                  <Path Filename="..">/home/maick/.dbeaver-drivers/</Path>
+                  <Path Filename="ts2">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/ts2/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="">/home/maick/Android/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="react">/home/maick/xMx/</Path>
+                  <Path Filename="">/home/maick/xMx/react/</Path>
+                  <Path Filename="PN.G.z0.txt">/media/maick/</Path>
+                  <Path Filename="">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="">/home/maick/</Path>
+                  <Path Filename="ipa4en2">/home/maick/xMx/</Path>
+                  <Path Filename=".vscode">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="..">/home/maick/xMx/ipa4en2/.vscode/</Path>
+                  <Path Filename=".vscode">/home/maick/xMx/ipa4en2/</Path>
+                  <Path Filename="..">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="zSAVES!">/home/maick/</Path>
+                  <Path Filename="vmware_share">/home/maick/zSAVES!/</Path>
+                  <Path Filename="Records">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="W:ext400">/media/maick/</Path>
+                  <Path Filename="!!Mx.Study">/media/maick/W:ext400/MxData3/theMaix/</Path>
+                  <Path Filename="Latin1.IB1">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/</Path>
+                  <Path Filename="..">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/Latin1.IB1/</Path>
+                  <Path Filename="Latin2.I7A">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/</Path>
+                  <Path Filename="zOld150+">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/Latin2.I7A/</Path>
+                  <Path Filename="..">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/Latin2.I7A/zOld150+/</Path>
+                  <Path Filename="zOld150+">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/Latin2.I7A/</Path>
+                  <Path Filename="..">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/Latin2.I7A/zOld150+/</Path>
+                  <Path Filename="zOld150+">/media/maick/W:ext400/MxData3/theMaix/!!Mx.Study/Latin2.I7A/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>2</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="AndroidStudioProjects">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="AndroidStudioProjects">/home/maick/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="AndroidStudioProjects">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="AndroidStudioProjects">/home/maick/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="PN.M.txt">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/Android/Sdk/</Path>
+                  <Path Filename="Sdk">/home/maick/Android/</Path>
+                  <Path Filename="x10-x32.txt">/home/maick/</Path>
+                  <Path Filename="maick">/home/</Path>
+                  <Path Filename="Android">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/Android/</Path>
+                  <Path Filename="..">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="high">/home/maick/xMx/</Path>
+                  <Path Filename="..">/home/maick/xMx/high/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="html">/home/maick/xMx/</Path>
+                  <Path Filename="..">/home/maick/xMx/html/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/xMx/</Path>
+                  <Path Filename="xMx">/home/maick/</Path>
+                  <Path Filename="html">/home/maick/xMx/</Path>
+                  <Path Filename="..">/home/maick/xMx/html/</Path>
+                  <Path Filename="html">/home/maick/xMx/</Path>
+                  <Path Filename=".vscode">/home/maick/xMx/html/</Path>
+                  <Path Filename="..">/home/maick/xMx/html/.vscode/</Path>
+                  <Path Filename="..">/home/maick/xMx/html/</Path>
+                  <Path Filename="reactts4">/home/maick/xMx/</Path>
+                  <Path Filename="src">/home/maick/xMx/reactts4/</Path>
+                  <Path Filename="App.tsx">/home/maick/xMx/reactts4/src/</Path>
+                  <Path Filename="..">/media/maick/D:WD1T-Data/theMaix/!sync/</Path>
+                  <Path Filename="!Mx.France">/media/maick/D:WD1T-Data/theMaix/</Path>
+                  <Path Filename="..">/media/maick/D:WD1T-Data/theMaix/!Mx.France/</Path>
+                  <Path Filename="!!Mx.Study">/media/maick/D:WD1T-Data/theMaix/</Path>
+                  <Path Filename="Latin2.I7A">/media/maick/D:WD1T-Data/theMaix/!!Mx.Study/</Path>
+                  <Path Filename="..">/media/maick/D:WD1T-Data/theMaix/!!Mx.Study/Latin2.I7A/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="AndroidStudioProjects">/home/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/</Path>
+                  <Path Filename="AndroidStudioProjects">/home/maick/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                  <Path Filename="..">/home/maick/AndroidStudioProjects/WebView4/app/src/main/assets/www/</Path>
+                  <Path Filename="">/media/maick/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+  </Tabs>
+  <Log Enabled="False" LogFileWithDateInName="False">
+    <FileName>%DC_CONFIG_PATH%/doublecmd.log</FileName>
+    <Options>1023</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>True</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>True</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>False</SpaceMovesDown>
+    <DirBrackets>False</DirBrackets>
+    <InplaceRename>True</InplaceRename>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+  </Miscellaneous>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <AutoRefresh>
+    <Options>3</Options>
+    <ExcludeDirs/>
+    <Mode>1</Mode>
+  </AutoRefresh>
+  <Icons>
+    <ShowMode>3</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>16</Size>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <CustomDriveIcons>False</CustomDriveIcons>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+  </Icons>
+  <IgnoreList Enabled="False">
+    <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList>
+    <HotDir Name="theMaix" Path="/media/maick/D:WD1T-Data/theMaix/"/>
+    <HotDir Name="theMaix W" Path="/media/maick/W:ext400/MxData3/theMaix/"/>
+    <HotDir Name="xMx" Path="/home/maick/xMx/"/>
+  </DirectoryHotList>
+  <Viewer>
+    <PreviewVisible>False</PreviewVisible>
+    <ImageStretch>False</ImageStretch>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>Pen</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <ViewerMode>1</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+  </Viewer>
+  <Editor>
+    <SynEditOptions>888843</SynEditOptions>
+  </Editor>
+  <SyncDirs>
+    <Subdirs>True</Subdirs>
+    <ByContent>False</ByContent>
+    <IgnoreDate>True</IgnoreDate>
+    <FilterCopyRight>True</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+  </SyncDirs>
+  <InternalAssociations>
+    <OfferToAddNewFileType>True</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>True</ExpandedContextMenu>
+    <ExecuteViaShell>True</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>True</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>True</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>True</IncludeFileAssociation>
+  </InternalAssociations>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{4B18D882-9588-402E-BB77-2CF0EDA9ECA1}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <Lua>
+    <PathToLibrary>liblua5.1.so.0</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <UseShellForFileOperations>False</UseShellForFileOperations>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <SearchTemplates/>
+  <ColumnsSets DefaultTitleHash="540805403">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <CursorBorder Enabled="False">
+        <Color>0</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>538</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483635</Background>
+          <Background2>-2147483619</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483638</CursorColor>
+          <CursorText>8388608</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>120</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483635</Background>
+          <Background2>-2147483619</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483638</CursorColor>
+          <CursorText>8388608</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>120</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483635</Background>
+          <Background2>-2147483619</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483638</CursorColor>
+          <CursorText>8388608</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>140</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483635</Background>
+          <Background2>-2147483619</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483638</CursorColor>
+          <CursorText>8388608</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>100</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Sans</Name>
+            <Size>9</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483635</Background>
+          <Background2>-2147483619</Background2>
+          <MarkColor>65535</MarkColor>
+          <CursorColor>-2147483638</CursorColor>
+          <CursorText>8388608</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>65535</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <MainWindow>
+    <Position>
+      <Maximized>True</Maximized>
+      <Splitter>50</Splitter>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Width>954</Width>
+      <Height>1017</Height>
+    </Position>
+  </MainWindow>
+  <MultiRenamePresets>
+    <LastPreset/>
+    <Presets/>
+  </MultiRenamePresets>
+</doublecmd>
